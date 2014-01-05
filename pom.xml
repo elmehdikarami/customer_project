@@ -9,6 +9,13 @@
 	<url>http://maven.apache.org</url>
 	<dependencies>
 
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+
 		<!-- jUnit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -78,6 +85,7 @@
 			<url>http://download.java.net/maven/2/</url>
 		</repository>
 	</repositories>
+
 
 	<build>
 		<plugins>
