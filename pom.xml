@@ -8,13 +8,11 @@
 	<name>Struts2Example Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
-
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
 			<version>2.4</version>
 		</dependency>
-
 
 		<!-- jUnit -->
 		<dependency>
