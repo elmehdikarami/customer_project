@@ -54,7 +54,7 @@ public class TestCustomer extends TestCase {
 	public void testRemoveCustomer() {
 		session.beginTransaction();
 		session.delete(customers[2]);
-		session.getTransaction().commit();
+		session.getTransaction().commit(); 
 		assertEquals(customers_count, session.createQuery("from Customer").list().size());
 	}
 
