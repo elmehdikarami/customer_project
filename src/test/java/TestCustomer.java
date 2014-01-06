@@ -48,6 +48,14 @@ public class TestCustomer extends TestCase {
 	}
 
 	@Test
+	public void testAddCustomer2() {
+		
+		assertEquals(customers_count + 1,15);
+	}
+
+
+
+	@Test
 	public void testRemoveCustomer() {
 		session.beginTransaction();
 		session.delete(customers[2]);
