@@ -47,6 +47,13 @@ public class TestCustomer extends TestCase {
 				.list().size());
 	}
 
+	@Test
+	public void testAddCustomer2() {
+		
+		assertEquals(15,15);
+	}
+
+
 
 	@Test
 	public void testRemoveCustomer() {
