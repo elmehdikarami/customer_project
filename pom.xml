@@ -4,8 +4,8 @@
 	<groupId>com.customers.common</groupId>
 	<artifactId>Struts2Example</artifactId>
 	<packaging>war</packaging>
-	<version>com.customer.common</version>
-	<name>Struts2Example Maven Webapp</name>
+	<version>1.0</version>
+	<name>Customers App</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 
