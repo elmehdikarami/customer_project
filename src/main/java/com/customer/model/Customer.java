@@ -2,6 +2,7 @@ package com.customer.model;
 
 import java.util.Date;
 
+
 public class Customer implements java.io.Serializable {
 
 	private Long customerId;
