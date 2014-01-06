@@ -55,7 +55,7 @@ public class TestCustomer extends TestCase {
 		session.beginTransaction();
 		session.delete(customers[2]);
 		session.getTransaction().commit(); 
-		assertEquals(customers_count, session.createQuery("from Customer").list().size());
+		assertEquals(customers_count-1, session.createQuery("from Customer").list().size());
 	}
 
 }
