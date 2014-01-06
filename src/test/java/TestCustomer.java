@@ -31,14 +31,11 @@ public class TestCustomer extends TestCase {
 				new Date());
 		customers[1] = new Customer("Customer 2", "Tanger, Morocco", new Date());
 		customers[2] = new Customer("Customer 3", "Rabat, Morocco", new Date());
-
 		session.beginTransaction();
 		session.save(customers[0]);
 		session.save(customers[1]);
 		session.getTransaction().commit();
-
 		customers_count = 2;
-
 	}
 
 	@Test
